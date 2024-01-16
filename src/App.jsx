@@ -5,6 +5,7 @@ import About from './sections/About'
 import Services from './sections/Services'
 import Warranty from './sections/Warranty'
 import Contact from './sections/Contact'
+import Footer from './sections/Footer'
 
 const App = () => {
   return (
@@ -39,12 +40,13 @@ const App = () => {
         </section>
 
         {/*     Contact   */}
-        <section>
+        <section className="border-b-2 border-gay-600">
           <Contact />
         </section>
 
         {/*   Footer    */}
         <section>
+          <Footer />
         </section>
 
       </div>

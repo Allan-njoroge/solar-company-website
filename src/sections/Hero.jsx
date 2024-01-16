@@ -22,7 +22,7 @@ const Hero = () => {
             <button className="text-xl md:px-4 px-3 md:py-3 py-2 bg-green-300 rounded-md text-black/90">Get a Quote</button>
 
             {/*     Stats   */}
-            <div className="mt-10 flex gap-10 md:gap-20">
+            <div className="mt-10 md:flex gap-10 md:gap-20">
 
               <Stats 
                 number= "10"
