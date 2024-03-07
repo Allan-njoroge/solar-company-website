@@ -13,34 +13,34 @@ const App = () => {
 
       {/*   Navbar    */}
       <div className="items-center">
-        <Nav />
+       <Nav />
       </div>
 
       {/*   sections    */}
       <div className="w-[90%] mx-auto">
 
         {/*   Hero    */}
-        <section className="">
+        <section className="" id="Home">
           <Hero />
         </section>
 
         {/*   About    */}
-        <section>
+        <section id="about">
           <About />
         </section>
 
         {/*   Services    */}
-        <section>
+        <section id="services">
           <Services />
         </section>
 
         {/*   Warranty    */}
-        <section>
+        <section id="warranty">
           <Warranty />
         </section>
 
         {/*     Contact   */}
-        <section className="border-b-2 border-gay-600">
+        <section className="border-b-2 border-gay-600" id="contact">
           <Contact />
         </section>
 
